@@ -1,4 +1,4 @@
-package com.example.geting.huoshandemo.live;
+package com.example.geting.huoshandemo.logined.tongcheng;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;
@@ -13,11 +13,11 @@ import com.example.geting.huoshandemo.R;
  * Created by geting on 2017/12/29.
  */
 
-public class LoginedLiveFragment extends Fragment{
+public class LoginedTongFragment extends Fragment{
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        View view = inflater.inflate(R.layout.loginedlivefragment, container, false);
+        View view = inflater.inflate(R.layout.loginedtongfragment, container, false);
         return view;
 
     }

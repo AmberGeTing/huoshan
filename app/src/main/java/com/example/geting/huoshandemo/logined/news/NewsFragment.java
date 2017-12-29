@@ -1,4 +1,4 @@
-package com.example.geting.huoshandemo.live;
+package com.example.geting.huoshandemo.logined.news;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;
@@ -10,14 +10,15 @@ import android.view.ViewGroup;
 import com.example.geting.huoshandemo.R;
 
 /**
- * Created by geting on 2017/12/28.
+ * Created by geting on 2017/12/29.
  */
 
-public class LiveFragment extends Fragment{
+public class NewsFragment extends Fragment {
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        View view = inflater.inflate(R.layout.fragment01,container,false);
+        View view = inflater.inflate(R.layout.news, container, false);
         return view;
+
     }
 }

@@ -1,4 +1,4 @@
-package com.example.geting.huoshandemo.homepage;
+package com.example.geting.huoshandemo.logined.homepage;
 
 import android.graphics.Color;
 import android.os.Bundle;
@@ -14,10 +14,10 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import com.example.geting.huoshandemo.R;
-import com.example.geting.huoshandemo.live.LoginedLiveFragment;
-import com.example.geting.huoshandemo.tongcheng.LoginedTongFragment;
+import com.example.geting.huoshandemo.logined.live.LoginedLiveFragment;
+import com.example.geting.huoshandemo.logined.tongcheng.LoginedTongFragment;
 import com.example.geting.huoshandemo.utils.ViewPagerIndicator;
-import com.example.geting.huoshandemo.video.LoginedVideoFragment;
+import com.example.geting.huoshandemo.logined.video.LoginedVideoFragment;
 
 import java.util.ArrayList;
 import java.util.List;

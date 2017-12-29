@@ -19,8 +19,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".home.LoginedActivity" />
-        <activity android:name=".mine.setup.SetUpActivity"></activity>
+        <activity android:name=".logined.LoginedActivity" />
+        <activity android:name=".logined.mine.setup.SetUpActivity"></activity>
     </application>
 
 </manifest>

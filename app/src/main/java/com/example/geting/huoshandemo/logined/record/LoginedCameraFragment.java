@@ -1,4 +1,4 @@
-package com.example.geting.huoshandemo.video;
+package com.example.geting.huoshandemo.logined.record;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;
@@ -13,11 +13,11 @@ import com.example.geting.huoshandemo.R;
  * Created by geting on 2017/12/29.
  */
 
-public class LoginedVideoFragment extends Fragment{
+public class LoginedCameraFragment extends Fragment{
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        View view = inflater.inflate(R.layout.loginedvideofragment, container, false);
+        View view = inflater.inflate(R.layout.loginedjiahaofragment, container, false);
         return view;
 
     }

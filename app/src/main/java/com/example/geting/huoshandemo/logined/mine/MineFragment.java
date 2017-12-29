@@ -1,4 +1,4 @@
-package com.example.geting.huoshandemo.mine;
+package com.example.geting.huoshandemo.logined.mine;
 
 import android.content.Intent;
 import android.net.Uri;
@@ -8,7 +8,6 @@ import android.support.design.widget.TabLayout;
 import android.support.v4.app.Fragment;
 import android.support.v4.view.ViewPager;
 import android.util.DisplayMetrics;
-import android.view.Gravity;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -20,7 +19,7 @@ import android.widget.RelativeLayout;
 import android.widget.TextView;
 
 import com.example.geting.huoshandemo.R;
-import com.example.geting.huoshandemo.mine.setup.SetUpActivity;
+import com.example.geting.huoshandemo.logined.mine.setup.SetUpActivity;
 import com.facebook.drawee.backends.pipeline.Fresco;
 import com.facebook.drawee.interfaces.DraweeController;
 import com.facebook.drawee.view.SimpleDraweeView;

@@ -1,4 +1,4 @@
-package com.example.geting.huoshandemo.mine.setup;
+package com.example.geting.huoshandemo.logined.mine.setup;
 
 import android.content.Context;
 import android.content.DialogInterface;

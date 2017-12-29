@@ -1,4 +1,4 @@
-package com.example.geting.huoshandemo.video;
+package com.example.geting.huoshandemo.home.video;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;

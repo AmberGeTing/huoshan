@@ -1,4 +1,4 @@
-package com.example.geting.huoshandemo.home;
+package com.example.geting.huoshandemo.logined;
 
 import android.graphics.Color;
 import android.os.Bundle;
@@ -6,11 +6,11 @@ import android.support.v7.app.AppCompatActivity;
 import android.widget.LinearLayout;
 
 import com.example.geting.huoshandemo.R;
-import com.example.geting.huoshandemo.record.LoginedCameraFragment;
-import com.example.geting.huoshandemo.homepage.HomePageFragment;
-import com.example.geting.huoshandemo.video.LoginedVideoFragment;
-import com.example.geting.huoshandemo.mine.MineFragment;
-import com.example.geting.huoshandemo.news.NewsFragment;
+import com.example.geting.huoshandemo.logined.record.LoginedCameraFragment;
+import com.example.geting.huoshandemo.logined.homepage.HomePageFragment;
+import com.example.geting.huoshandemo.logined.video.LoginedVideoFragment;
+import com.example.geting.huoshandemo.logined.mine.MineFragment;
+import com.example.geting.huoshandemo.logined.news.NewsFragment;
 import com.hjm.bottomtabbar.BottomTabBar;
 
 public class LoginedActivity extends AppCompatActivity {
