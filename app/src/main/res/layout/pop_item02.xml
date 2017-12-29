@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+   android:orientation="vertical"
+    android:background="@color/vpi__bright_foreground_disabled_holo_light"
+    android:layout_height="wrap_content">
+
+   <RelativeLayout
+       android:id="@+id/ma"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content">
+       <TextView
+           android:id="@+id/tv"
+           android:layout_centerHorizontal="true"
+           android:layout_marginTop="8dp"
+           android:text="邀请好友加入火山"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content" />
+       <ImageView
+           android:layout_marginRight="10dp"
+           android:layout_alignParentRight="true"
+           android:id="@+id/cha"
+           android:background="@drawable/cha"
+           android:layout_width="30dp"
+           android:layout_height="30dp" />
+   </RelativeLayout>
+    <TextView
+        android:id="@+id/f"
+        android:layout_marginTop="8dp"
+        android:text="与好友一起分享生活精彩瞬间"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/yaoqing"
+        android:background="@drawable/shape"
+        android:textColor="#ffffff"
+        android:text="邀请好友"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content" />
+</LinearLayout>

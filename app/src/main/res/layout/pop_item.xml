@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:paddingBottom="2dp"
+    android:layout_gravity="center_horizontal"
+    android:layout_height="wrap_content">
+    <RelativeLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_marginTop="8dp"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:textSize="18sp"
+            android:text="登录火山视频  享受精彩瞬间"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <ImageView
+            android:layout_marginRight="10dp"
+            android:layout_alignParentRight="true"
+            android:id="@+id/cha"
+            android:background="@drawable/cha"
+            android:layout_width="30dp"
+            android:layout_height="30dp" />
+    </RelativeLayout>
+    <View
+        android:layout_marginTop="10dp"
+        android:background="#ff3360"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+      />
+    <EditText
+        android:id="@+id/et_phone"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:hint="请输入您的手机号"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/et_pwd"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:hint="请输入密码"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:gravity="center_horizontal"
+        android:text="或"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <RelativeLayout
+        android:layout_marginTop="10dp"
+        android:gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:background="@drawable/mqq"
+            android:id="@+id/qq"
+            android:layout_marginLeft="25dp"
+            android:layout_alignParentLeft="true"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="35dp"
+            android:layout_height="35dp" />
+        <ImageView
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="25dp"
+            android:background="@drawable/weixin"
+            android:id="@+id/weixin"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="35dp"
+            android:layout_height="35dp" />
+    </RelativeLayout>
+ <LinearLayout
+     android:orientation="horizontal"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content">
+     <Button
+         android:id="@+id/login"
+         android:layout_weight="1"
+         android:text="登录"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content" />
+     <Button
+         android:layout_weight="1"
+         android:id="@+id/register"
+         android:text="注册"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content" />
+ </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+
+</LinearLayout>
